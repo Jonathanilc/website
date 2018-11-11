@@ -2,6 +2,10 @@
   "name": "react-landing",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "npm": "5.6.0",
+    "node": "v8.11.4"
+  },
   "homepage" : "http://flexdinesh.github.io/",
   "scripts": {
     "start": "node scripts/start.js",
