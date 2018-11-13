@@ -2,11 +2,11 @@
   "name": "react-landing",
   "version": "0.1.0",
   "private": true,
+  "homepage":"https://jonathanilc.github.io/website",
   "engines": {
     "npm": "5.6.0",
     "node": "v8.11.4"
   },
-  "homepage": "http://flexdinesh.github.io/",
   "scripts": {
     "start": "node scripts/start.js",
     "start:prod": "ENV=prod node scripts/start.js",
@@ -15,7 +15,7 @@
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom",
     "predeploy": "npm run build",
-    "deploy": "aws s3 cp build/ s3://dineshpandiyan.com --recursive"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "autoprefixer": "7.1.6",
@@ -40,7 +40,7 @@
     "extract-text-webpack-plugin": "3.0.2",
     "file-loader": "1.1.5",
     "fs-extra": "3.0.1",
-    "gh-pages": "^1.1.0",
+    "gh-pages": "^2.0.1",
     "html-webpack-plugin": "2.29.0",
     "jest": "20.0.4",
     "node-sass": "^4.7.2",

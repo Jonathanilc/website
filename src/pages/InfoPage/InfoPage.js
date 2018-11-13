@@ -28,7 +28,7 @@ const InfoPage = (props, context) => {
           <div className="info-content" style={{ color: textPrimary }}>
             <b style={{ color: colorPrimary }}>Education</b>
             <p>
-              <span className="highlight">Unitec Institute of Techonology</span>
+              Unitec Institute of Techonology<br/><span className="highlight">Bachelor of Computing System</span>
             </p>
             <br />
             <b style={{ color: colorPrimary }}>Skills</b>
