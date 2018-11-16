@@ -20,10 +20,10 @@
 
 // n is number of stars required
 @function multiple-box-shadow($n) {
-  $value: "#{random(2000)}px #{random(2000)}px";
+  $value: "#{random(2000)}px #{random(2000)}px 2px";
 
   @for $i from 2 through $n {
-    $value: "#{$value} , #{random(2000)}px #{random(2000)}px";
+    $value: "#{$value} , #{random(2000)}px #{random(2000)}px 2px";
   }
 
   @return unquote($value);
@@ -100,10 +100,12 @@ $shadows-big: multiple-box-shadow(100);
   @keyframes animStar {
     from {
       transform: translateY(-2000px);
+      -webkit-transform:translateY(-2000px);
     }
   
     to {
       transform: translateY(0px);
+      -webkit-transform:translateY(0px);
     }
   }
 }
