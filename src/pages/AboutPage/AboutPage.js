@@ -29,17 +29,14 @@ const AboutPage = (props, context) => {
               everything web.
             </p>
             <p>
-              I am recently graduated from <span className="highlight">Unitec Institute of Techonology</span>, and
-              I am currently looking for jobs in web development.
+              Extensive experience in developing web apps React JS, Redux, ANTD, SASS, Node.js.
             </p>
-
             <p>
-              React.js, Redux, Node.js. I am also obsessed with making the web look pretty with SASS/CSS.
+              Experienced in working with Redux architecture using complex Object-Oriented concepts in improving the performance of the websites.
             </p>
-            <br /><br /><br />
-            <p className="text-emoji" style={{ color: colorPrimary }}>
+            {/* <p className="text-emoji" style={{ color: colorPrimary }}>
               (｡◕‿‿◕｡)
-            </p>
+            </p> */}
           </div>
         </div>
       </div>

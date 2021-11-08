@@ -2,7 +2,7 @@
   "name": "react-landing",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://jonathanilc.github.io/website",
+  "homepage": "https://jonathanilc.github.io/website",
   "engines": {
     "npm": "5.6.0",
     "node": "v8.11.4"

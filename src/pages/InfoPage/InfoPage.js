@@ -26,30 +26,36 @@ const InfoPage = (props, context) => {
         <h1 style={{ color: colorPrimary }}>Info</h1>
         <div className="info-wrapper">
           <div className="info-content" style={{ color: textPrimary }}>
-            <b style={{ color: colorPrimary }}>Education</b>
-            <p>
-              Unitec Institute of Techonology<br/><span className="highlight">Bachelor of Computing System</span>
-            </p>
-            <br />
-            <b style={{ color: colorPrimary }}>Skills</b>
+            <b style={{ color: colorPrimary }}>Frontend Skills</b>
             <ul>
-              <li className="tooltip">React.js & Redux <span style={{ backgroundColor: colorPrimary, color: textAlternate }} className="tooltiptext">Strong skills with React framework ( 1 year )</span></li>
-              <li className="tooltip">REST API <span style={{ backgroundColor: colorPrimary, color: textAlternate }} className="tooltiptext">Familiar with using and writing REST API
-</span></li>
-              <li className="tooltip">Git Flow <span style={{ backgroundColor: colorPrimary, color: textAlternate }} className="tooltiptext">Nice version control ability</span></li>
-              <li className="tooltip">Agile Methodology <span style={{ backgroundColor: colorPrimary, color: textAlternate }} className="tooltiptext">Certificate on Agile and Lean delivery; Enjoy working in Agile team</span></li>
-              <li className="tooltip">HTML, CSS, JavaScript <span style={{ backgroundColor: colorPrimary, color: textAlternate }} className="tooltiptext">Strong front_end knowledges</span></li>
-              <li className="tooltip">Swift4 <span style={{ backgroundColor: colorPrimary, color: textAlternate }} className="tooltiptext">Interested in IOS Development</span></li>
-              <li className="tooltip">C# <span style={{ backgroundColor: colorPrimary, color: textAlternate }} className="tooltiptext">Familiar with ASP.NET core, and MVC Framework</span></li>
+              <li className="tooltip">React</li>
+              <li className="tooltip">Redux</li>
+              <li className="tooltip">Tailwind CSS</li>
+              <li className="tooltip">SASS</li>
+              <li className="tooltip">Ant Design frame work</li>
+              <li className="tooltip">Material UI</li>
             </ul>
             <br />
-
-            <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1VbZI1oQC3wxu1QfprZJi4oHNLzoVCCd5/view?usp=sharing" style={{ color: colorPrimary }}><i className="fab fa-google-drive"></i> View my CV here.</a>
-
-            {/* <p className="text-emoji" style={{ color: colorPrimary }}>
-              (｡◕‿‿◕｡)
-            </p> */}
-
+          </div>
+          <div className="info-content" style={{ color: textPrimary }}>
+            <b style={{ color: colorPrimary }}>Backend and Cloud-based Skills</b>
+            <ul>
+              <li className="tooltip">Python</li>
+              <li className="tooltip">Flask Framework</li>
+              <li className="tooltip">Node.js</li>
+              <li className="tooltip">Express Framework</li>
+              <li className="tooltip">AWS lambda func</li>
+              <li className="tooltip">AWS API gateway</li>
+              <li className="tooltip">AWS dynamoDB</li>
+            </ul>
+            <br />
+          </div>
+          <div className="info-content" style={{ color: textPrimary }}>
+            <b style={{ color: colorPrimary }}>DevOps Skills</b>
+            <ul>
+              <li className="tooltip">Circle CI</li>
+            </ul>
+            <br />
           </div>
         </div>
       </div>

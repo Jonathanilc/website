@@ -21,7 +21,7 @@ class App extends Component {
           <LandingPage />
           <AboutPage />
           <InfoPage />
-          <PortfolioPage />
+          {/* <PortfolioPage /> */}
           <ScrollTop />
           <Footer />
         </ThemeSwitcher>
